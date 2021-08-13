@@ -12,10 +12,9 @@ public class Main {
         //  NBS nbs = new NBS(new FileInputStream("D:\\pcdatas\\music\\nbs\\test.nbs"));
         //   NBS nbs = new NBS(new FileInputStream("D:\\pcdatas\\music\\nbs\\sandstormnew.nbs"));
         //   NBS nbs = new NBS(new FileInputStream("D:\\pcdatas\\music\\nbs\\sandstorm.nbs"));
-        for (Layer value : nbs.getLayers().values()) {
-            value.getNoteData().forEach((n, m) -> {
-                System.out.println(n+":"+ m.getPitch());
-            });
-        }
+
+
+
+
     }
 }
