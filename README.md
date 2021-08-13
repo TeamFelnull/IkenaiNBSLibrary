@@ -1,0 +1,2 @@
+# IkenaiNBSLibrary
+Simple NBS Library
